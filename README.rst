@@ -13,8 +13,7 @@ Input will consist of a series of lines, each containing the initial five cards 
 Each line of input should produce one line of output, consisting of the initial hand, the top five cards on the deck, and the best value of hand that is possible. Input is terminated by end of file.
 Use the sample input and output as a guide. Note that the order of the cards in the player's hand is irrelevant, but the order of the cards in the deck is important because the discarded cards must be replaced from the top of the deck. Also note that examples of all types of hands appear in the sample output, with the hands shown in decreasing order of value.
 
-Sample Input
-~~~~~~~~~~~~::
+Sample Input::
 
 	TH JH QC QD QS QH KH AH 2S 6S
 	2H 2S 3H 3S 3C 2D 3D 6C 9C TH
@@ -26,8 +25,7 @@ Sample Input
 	6C 9C 8C 2D 7C 2H TC 4C 9S AH
 	3D 5S 2H QD TD 6S KH 9H AD QH
 
-Sample Output
-~~~~~~~~~~~~~::
+Sample Output::
 
 	Hand: TH JH QC QD QS Deck: QH KH AH 2S 6S Best hand: straight-flush
 	Hand: 2H 2S 3H 3S 3C Deck: 2D 3D 6C 9C TH Best hand: four-of-a-kind
